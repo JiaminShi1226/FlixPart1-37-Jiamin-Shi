@@ -16,6 +16,12 @@
 		205D713727C94C8700294306 /* FlixPart1_37_Jiamin_ShiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D713627C94C8700294306 /* FlixPart1_37_Jiamin_ShiTests.swift */; };
 		205D714127C94C8700294306 /* FlixPart1_37_Jiamin_ShiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D714027C94C8700294306 /* FlixPart1_37_Jiamin_ShiUITests.swift */; };
 		205D714327C94C8700294306 /* FlixPart1_37_Jiamin_ShiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D714227C94C8700294306 /* FlixPart1_37_Jiamin_ShiUITestsLaunchTests.swift */; };
+		205D715027C95E9200294306 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D714F27C95E9200294306 /* MoviesViewController.swift */; };
+		205D715227C96B7600294306 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D715127C96B7600294306 /* MovieCell.swift */; };
+		205D715527C973CA00294306 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 205D715427C973CA00294306 /* AlamofireImage */; };
+		45373F90A0B79862EF710EA2 /* Pods_FlixPart1_37_Jiamin_Shi_FlixPart1_37_Jiamin_ShiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817BDBE5566D45D929F86819 /* Pods_FlixPart1_37_Jiamin_Shi_FlixPart1_37_Jiamin_ShiUITests.framework */; };
+		DB47BAF2F505D7C640E39F4A /* Pods_FlixPart1_37_Jiamin_Shi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149EF86B2BC69CF2AAC2C673 /* Pods_FlixPart1_37_Jiamin_Shi.framework */; };
+		FDA5AB41F3391A9151DAEC28 /* Pods_FlixPart1_37_Jiamin_ShiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D573C92256CDDBFE938C76 /* Pods_FlixPart1_37_Jiamin_ShiTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A14B9F4C4F3EE21A0BD790 /* Pods-FlixPart1-37-Jiamin ShiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixPart1-37-Jiamin ShiTests.debug.xcconfig"; path = "Target Support Files/Pods-FlixPart1-37-Jiamin ShiTests/Pods-FlixPart1-37-Jiamin ShiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		149EF86B2BC69CF2AAC2C673 /* Pods_FlixPart1_37_Jiamin_Shi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixPart1_37_Jiamin_Shi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		205D711C27C94C8500294306 /* FlixPart1-37-Jiamin Shi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlixPart1-37-Jiamin Shi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		205D711F27C94C8500294306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		205D712127C94C8500294306 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,15 @@
 		205D713C27C94C8700294306 /* FlixPart1-37-Jiamin ShiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FlixPart1-37-Jiamin ShiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		205D714027C94C8700294306 /* FlixPart1_37_Jiamin_ShiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixPart1_37_Jiamin_ShiUITests.swift; sourceTree = "<group>"; };
 		205D714227C94C8700294306 /* FlixPart1_37_Jiamin_ShiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixPart1_37_Jiamin_ShiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		205D714F27C95E9200294306 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		205D715127C96B7600294306 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		319F38A2C49922F10DCE775F /* Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests/Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C70216067F39B8E443C976C /* Pods-FlixPart1-37-Jiamin Shi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixPart1-37-Jiamin Shi.release.xcconfig"; path = "Target Support Files/Pods-FlixPart1-37-Jiamin Shi/Pods-FlixPart1-37-Jiamin Shi.release.xcconfig"; sourceTree = "<group>"; };
+		817BDBE5566D45D929F86819 /* Pods_FlixPart1_37_Jiamin_Shi_FlixPart1_37_Jiamin_ShiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixPart1_37_Jiamin_Shi_FlixPart1_37_Jiamin_ShiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E463A3C02E03F925F8D2A85 /* Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests.release.xcconfig"; path = "Target Support Files/Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests/Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A66EC7C1CC2BC747485A0398 /* Pods-FlixPart1-37-Jiamin ShiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixPart1-37-Jiamin ShiTests.release.xcconfig"; path = "Target Support Files/Pods-FlixPart1-37-Jiamin ShiTests/Pods-FlixPart1-37-Jiamin ShiTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3A8A7B981780A464D1B6941 /* Pods-FlixPart1-37-Jiamin Shi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixPart1-37-Jiamin Shi.debug.xcconfig"; path = "Target Support Files/Pods-FlixPart1-37-Jiamin Shi/Pods-FlixPart1-37-Jiamin Shi.debug.xcconfig"; sourceTree = "<group>"; };
+		F3D573C92256CDDBFE938C76 /* Pods_FlixPart1_37_Jiamin_ShiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixPart1_37_Jiamin_ShiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				205D715527C973CA00294306 /* AlamofireImage in Frameworks */,
+				DB47BAF2F505D7C640E39F4A /* Pods_FlixPart1_37_Jiamin_Shi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA5AB41F3391A9151DAEC28 /* Pods_FlixPart1_37_Jiamin_ShiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45373F90A0B79862EF710EA2 /* Pods_FlixPart1_37_Jiamin_Shi_FlixPart1_37_Jiamin_ShiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				205D713527C94C8700294306 /* FlixPart1-37-Jiamin ShiTests */,
 				205D713F27C94C8700294306 /* FlixPart1-37-Jiamin ShiUITests */,
 				205D711D27C94C8500294306 /* Products */,
+				AF0E5F8ADAC5312F13117DBE /* Pods */,
+				538F3B231022089A02461958 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +129,8 @@
 				205D712827C94C8700294306 /* Assets.xcassets */,
 				205D712A27C94C8700294306 /* LaunchScreen.storyboard */,
 				205D712D27C94C8700294306 /* Info.plist */,
+				205D714F27C95E9200294306 /* MoviesViewController.swift */,
+				205D715127C96B7600294306 /* MovieCell.swift */,
 			);
 			path = "FlixPart1-37-Jiamin Shi";
 			sourceTree = "<group>";
@@ -127,6 +152,29 @@
 			path = "FlixPart1-37-Jiamin ShiUITests";
 			sourceTree = "<group>";
 		};
+		538F3B231022089A02461958 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				149EF86B2BC69CF2AAC2C673 /* Pods_FlixPart1_37_Jiamin_Shi.framework */,
+				817BDBE5566D45D929F86819 /* Pods_FlixPart1_37_Jiamin_Shi_FlixPart1_37_Jiamin_ShiUITests.framework */,
+				F3D573C92256CDDBFE938C76 /* Pods_FlixPart1_37_Jiamin_ShiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF0E5F8ADAC5312F13117DBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3A8A7B981780A464D1B6941 /* Pods-FlixPart1-37-Jiamin Shi.debug.xcconfig */,
+				4C70216067F39B8E443C976C /* Pods-FlixPart1-37-Jiamin Shi.release.xcconfig */,
+				319F38A2C49922F10DCE775F /* Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests.debug.xcconfig */,
+				9E463A3C02E03F925F8D2A85 /* Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests.release.xcconfig */,
+				00A14B9F4C4F3EE21A0BD790 /* Pods-FlixPart1-37-Jiamin ShiTests.debug.xcconfig */,
+				A66EC7C1CC2BC747485A0398 /* Pods-FlixPart1-37-Jiamin ShiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +182,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 205D714627C94C8700294306 /* Build configuration list for PBXNativeTarget "FlixPart1-37-Jiamin Shi" */;
 			buildPhases = (
+				57D27335003564BA0D9C057D /* [CP] Check Pods Manifest.lock */,
 				205D711827C94C8500294306 /* Sources */,
 				205D711927C94C8500294306 /* Frameworks */,
 				205D711A27C94C8500294306 /* Resources */,
+				81372041A34BBB796BF0D5DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "FlixPart1-37-Jiamin Shi";
+			packageProductDependencies = (
+				205D715427C973CA00294306 /* AlamofireImage */,
+			);
 			productName = "FlixPart1-37-Jiamin Shi";
 			productReference = 205D711C27C94C8500294306 /* FlixPart1-37-Jiamin Shi.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 205D714927C94C8700294306 /* Build configuration list for PBXNativeTarget "FlixPart1-37-Jiamin ShiTests" */;
 			buildPhases = (
+				A1126D1D469D81E24E46E7B1 /* [CP] Check Pods Manifest.lock */,
 				205D712E27C94C8700294306 /* Sources */,
 				205D712F27C94C8700294306 /* Frameworks */,
 				205D713027C94C8700294306 /* Resources */,
@@ -169,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 205D714C27C94C8700294306 /* Build configuration list for PBXNativeTarget "FlixPart1-37-Jiamin ShiUITests" */;
 			buildPhases = (
+				D2C3E81237DF7A23B22829D4 /* [CP] Check Pods Manifest.lock */,
 				205D713827C94C8700294306 /* Sources */,
 				205D713927C94C8700294306 /* Frameworks */,
 				205D713A27C94C8700294306 /* Resources */,
+				F72CA7855E415C27B54C1A6B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +271,9 @@
 				Base,
 			);
 			mainGroup = 205D711327C94C8500294306;
+			packageReferences = (
+				205D715327C973CA00294306 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = 205D711D27C94C8500294306 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,6 +312,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		57D27335003564BA0D9C057D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlixPart1-37-Jiamin Shi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81372041A34BBB796BF0D5DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlixPart1-37-Jiamin Shi/Pods-FlixPart1-37-Jiamin Shi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlixPart1-37-Jiamin Shi/Pods-FlixPart1-37-Jiamin Shi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlixPart1-37-Jiamin Shi/Pods-FlixPart1-37-Jiamin Shi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1126D1D469D81E24E46E7B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlixPart1-37-Jiamin ShiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2C3E81237DF7A23B22829D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F72CA7855E415C27B54C1A6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests/Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests/Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests/Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		205D711827C94C8500294306 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +423,8 @@
 				205D712427C94C8500294306 /* ViewController.swift in Sources */,
 				205D712027C94C8500294306 /* AppDelegate.swift in Sources */,
 				205D712227C94C8500294306 /* SceneDelegate.swift in Sources */,
+				205D715227C96B7600294306 /* MovieCell.swift in Sources */,
+				205D715027C95E9200294306 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +598,7 @@
 		};
 		205D714727C94C8700294306 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A8A7B981780A464D1B6941 /* Pods-FlixPart1-37-Jiamin Shi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +610,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -462,6 +628,7 @@
 		};
 		205D714827C94C8700294306 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C70216067F39B8E443C976C /* Pods-FlixPart1-37-Jiamin Shi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +640,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -490,6 +658,7 @@
 		};
 		205D714A27C94C8700294306 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00A14B9F4C4F3EE21A0BD790 /* Pods-FlixPart1-37-Jiamin ShiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +679,7 @@
 		};
 		205D714B27C94C8700294306 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A66EC7C1CC2BC747485A0398 /* Pods-FlixPart1-37-Jiamin ShiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +700,7 @@
 		};
 		205D714D27C94C8700294306 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 319F38A2C49922F10DCE775F /* Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +719,7 @@
 		};
 		205D714E27C94C8700294306 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E463A3C02E03F925F8D2A85 /* Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -604,6 +776,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		205D715327C973CA00294306 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		205D715427C973CA00294306 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 205D715327C973CA00294306 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 205D711427C94C8500294306 /* Project object */;
 }
