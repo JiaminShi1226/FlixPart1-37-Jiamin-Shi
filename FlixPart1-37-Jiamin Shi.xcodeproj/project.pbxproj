@@ -19,6 +19,9 @@
 		205D715027C95E9200294306 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D714F27C95E9200294306 /* MoviesViewController.swift */; };
 		205D715227C96B7600294306 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D715127C96B7600294306 /* MovieCell.swift */; };
 		205D715527C973CA00294306 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 205D715427C973CA00294306 /* AlamofireImage */; };
+		205D715727D29E4400294306 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D715627D29E4400294306 /* MovieDetailsViewController.swift */; };
+		205D715927D2AD2C00294306 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D715827D2AD2C00294306 /* MovieGridViewController.swift */; };
+		205D715B27D2B68500294306 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D715A27D2B68500294306 /* MovieGridCell.swift */; };
 		45373F90A0B79862EF710EA2 /* Pods_FlixPart1_37_Jiamin_Shi_FlixPart1_37_Jiamin_ShiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817BDBE5566D45D929F86819 /* Pods_FlixPart1_37_Jiamin_Shi_FlixPart1_37_Jiamin_ShiUITests.framework */; };
 		DB47BAF2F505D7C640E39F4A /* Pods_FlixPart1_37_Jiamin_Shi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149EF86B2BC69CF2AAC2C673 /* Pods_FlixPart1_37_Jiamin_Shi.framework */; };
 		FDA5AB41F3391A9151DAEC28 /* Pods_FlixPart1_37_Jiamin_ShiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D573C92256CDDBFE938C76 /* Pods_FlixPart1_37_Jiamin_ShiTests.framework */; };
@@ -59,6 +62,9 @@
 		205D714227C94C8700294306 /* FlixPart1_37_Jiamin_ShiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixPart1_37_Jiamin_ShiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		205D714F27C95E9200294306 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		205D715127C96B7600294306 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		205D715627D29E4400294306 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		205D715827D2AD2C00294306 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		205D715A27D2B68500294306 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		319F38A2C49922F10DCE775F /* Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests/Pods-FlixPart1-37-Jiamin Shi-FlixPart1-37-Jiamin ShiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4C70216067F39B8E443C976C /* Pods-FlixPart1-37-Jiamin Shi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixPart1-37-Jiamin Shi.release.xcconfig"; path = "Target Support Files/Pods-FlixPart1-37-Jiamin Shi/Pods-FlixPart1-37-Jiamin Shi.release.xcconfig"; sourceTree = "<group>"; };
 		817BDBE5566D45D929F86819 /* Pods_FlixPart1_37_Jiamin_Shi_FlixPart1_37_Jiamin_ShiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixPart1_37_Jiamin_Shi_FlixPart1_37_Jiamin_ShiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,11 +132,14 @@
 				205D712127C94C8500294306 /* SceneDelegate.swift */,
 				205D712327C94C8500294306 /* ViewController.swift */,
 				205D712527C94C8500294306 /* Main.storyboard */,
+				205D715A27D2B68500294306 /* MovieGridCell.swift */,
+				205D715827D2AD2C00294306 /* MovieGridViewController.swift */,
 				205D712827C94C8700294306 /* Assets.xcassets */,
 				205D712A27C94C8700294306 /* LaunchScreen.storyboard */,
 				205D712D27C94C8700294306 /* Info.plist */,
 				205D714F27C95E9200294306 /* MoviesViewController.swift */,
 				205D715127C96B7600294306 /* MovieCell.swift */,
+				205D715627D29E4400294306 /* MovieDetailsViewController.swift */,
 			);
 			path = "FlixPart1-37-Jiamin Shi";
 			sourceTree = "<group>";
@@ -422,6 +431,9 @@
 			files = (
 				205D712427C94C8500294306 /* ViewController.swift in Sources */,
 				205D712027C94C8500294306 /* AppDelegate.swift in Sources */,
+				205D715727D29E4400294306 /* MovieDetailsViewController.swift in Sources */,
+				205D715927D2AD2C00294306 /* MovieGridViewController.swift in Sources */,
+				205D715B27D2B68500294306 /* MovieGridCell.swift in Sources */,
 				205D712227C94C8500294306 /* SceneDelegate.swift in Sources */,
 				205D715227C96B7600294306 /* MovieCell.swift in Sources */,
 				205D715027C95E9200294306 /* MoviesViewController.swift in Sources */,
